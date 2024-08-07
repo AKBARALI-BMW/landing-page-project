@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task create a landing page</title>
+
+   <style>
+    body{
+        background-color: gray;
+    }
+
+    .main_container{
+      margin: 0px;   
+    }
+
+    .header{
+        background-color: white;
+        display: flex;
+    }
+
+    .header_image{
+        /* background-color: orange; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        justify-content: space-evenly;
+        padding-top: 2px;
+    
+    }
+    .header_text{
+        /* background-color: yellow; */
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+    
+        
+        
+    }
+    .header_text a{
+      
+        text-decoration: none;
+    }
+    .demo{
+        border: 1px solid  blue;
+         background-color: white;
+         font-size: 20px;
+         padding: 8px 7px;
+    }
+   .partner{
+    background-color: aqua;
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    padding-top: 8rem;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: gray;
+   }
+   .partner p{
+    text-transform: none;
+    font-size: 17px;
+   }
+
+   .btn{
+    padding: 7px 9px;
+    width: 12%;
+    color: white;
+    background-color:rgb(68, 162, 196) ;
+    border: none;
+    border-radius: 7px;
+   }
+
+   .sell_grow{
+    
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+   }
+
+
+ 
+   .part_1{
+      /* background-color: orange; */
+      width: 25%;
+      height: 100px;
+     text-align: center;
+     padding-top: 2rem;
+    
+   }
+
+   .part_1 img{
+      
+     width: 100px;
+     height: 100px;
+     clip-path: circle(40px at center);
+   }
+
+   .part_2{
+      /* background-color: orange; */
+      width: 25%;
+      height: 100px;
+     text-align: center;
+     padding-top: 2rem;
+    
+   }
+
+   .part_2 img{
+      
+     width: 100px;
+     height: 100px;
+     clip-path: circle(40px at center);
+   }
+
+   .part_3{
+      /* background-color: orange; */
+      width: 25%;
+      height: 100px;
+     text-align: center;
+     padding-top: 2rem;
+     
+    
+   }
+
+   .part_3 img{
+      
+     width: 100px;
+     height: 100px;
+     clip-path: circle(40px at center);
+   }
+
+   .program_story_1{
+      
+   background-color: orange;
+  display: flex;
+   }
+
+   .infromation_1{
+        width: 50%;
+        height: 230px;
+        /* background-color: brown; */
+        text-align: center;
+        padding-top: 7rem;
+        background-color: white;
+    
+   }
+   .picture_1{
+    width: 50%;
+    height: 342px;
+    /* background-color: blue; */
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/31/12/00/business-card-1015315_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+
+   .program_story_2{
+      
+      background-color: orange;
+     display: flex;
+      }
+   
+   .infromation_2{
+        width: 50%;
+        height: 230px;
+        /* background-color: brown; */
+        text-align: center;
+        padding-top: 7rem;
+        background-color: white;
+    
+   }
+   .picture_2{
+    width: 50%;
+    height: 342px;
+    /* background-color: blue; */
+    background-image: url('https://media.istockphoto.com/id/1069238348/photo/real-estate-agent-and-customers-shaking-hands-together-celebrating-finished-contract-after.webp?b=1&s=612x612&w=0&k=20&c=7C7pPmyDk88WEFV3LIb4mNAqQrUiIdXZp4s3z6kSGtI=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .program_story_3{
+      
+      background-color: orange;
+     display: flex;
+      }
+   
+   .infromation_3{
+        width: 50%;
+        height: 230px;
+        /* background-color: brown; */
+        text-align: center;
+        padding-top: 7rem;
+        background-color: white;
+    
+   }
+   .picture_3{
+    width: 50%;
+    height: 342px;
+    /* background-color: blue; */
+    background-image: url('https://media.istockphoto.com/id/1397336699/photo/portrait-of-a-business-man-with-his-arms-raised-stock-photo.webp?b=1&s=612x612&w=0&k=20&c=Lx_yzitLeCq_5nCWnI1RpmroHrDrF4iHyrPRhQ6mUSw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .program_story_4{
+      
+      background-color: orange;
+     display: flex;
+      }
+   
+   .infromation_4{
+        width: 50%;
+        height: 230px;
+        /* background-color: brown; */
+        text-align: center;
+        padding-top: 7rem;
+        background-color: white;
+    
+   }
+   .picture_4{
+    width: 50%;
+    height: 342px;
+    /* background-color: blue; */
+    background-image: url('https://media.istockphoto.com/id/1328159259/photo/a-woman-is-working-at-home-using-a-modem-router-connecting-the-internet-to-her-laptop.webp?b=1&s=612x612&w=0&k=20&c=b_FNNnnnLXg4811J02nFGHJynvJ8yua6AVM6udmmIwA=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .program_story_5{
+      
+      background-color: orange;
+     display: flex;
+      }
+   
+   .infromation_5{
+        width: 50%;
+        height: 230px;
+        /* background-color: brown; */
+        text-align: center;
+        padding-top: 7rem;
+        background-color: white;
+    
+   }
+   .picture_5{
+    width: 50%;
+    height: 342px;
+    /* background-color: blue; */
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/13/17/26/ecommerce-2140603_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .footer{
+    background-color:rgb(35, 32, 32);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+    
+   }
+
+
+
+</style>
+
+</head>
+<body>
+        <!-- header section  -->
+    <div class="main_container">
+      <div class="header">
+        <div class="header_image">
+            <h3><a href="">  <img src="logo.png" alt="" style="width: 10rem; height: 2rem;"></a></h3>
+      </div>
+
+     <div class="header_text">        
+       <b> <a href="">Features</a></b> 
+       <b> <a href="">intergation</a></b>
+        <b><a href="">pricing</a></b>
+       <b><a href="">company</a></h3></b> 
+        <b><a href="" class="demo">Get a demo</a></b>
+    <b><a href="">login</a></b>
+    </div>
+      </div>
+    
+         <!-- partner section image section  -->
+
+     <div class="partner">
+    
+        <h1>Find the right parter to <br> fuel your business growth</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing  Et quo non dolores<br> ipsa unde dolorum. Sint placeat nostrum esse nulla corporis. Consequatur <br> inventore laudantium  dolorum accusantium </p>
+        <button class="btn">Registor Today</button>
+     </div>
+   
+        
+        <!-- sell grow section  -->
+
+     <div class="sell_grow">
+    
+        <div class="part_1"> 
+            <img src="https://media.istockphoto.com/id/682289096/photo/young-it-engineer-inspecting-data-center-servers.webp?b=1&s=612x612&w=0&k=20&c=cMZzniWAYXrOKXH6L-bbhlxQ8FKHOCUS2aCUzljT_gM=" alt="">
+            <p>Be a part of only All in One platform for IT services  </p>
+        </div>
+        <div class="part_2">
+            <img src="https://media.istockphoto.com/id/1162354887/photo/businesspeople-handshaking-after-deal-or-interview.webp?b=1&s=612x612&w=0&k=20&c=UmGzktIvfGGm7G_NtWIWNI3UlL9toA3dKNt0MVh7VFw=" alt="">
+            <p>Come closer to find your next customer </p>
+        </div>
+        <div class="part_3">
+            <img src="https://media.istockphoto.com/id/1388649939/photo/cheerful-caucasian-young-man-student-freelancer-using-digital-tablet-for-social-media-e.webp?b=1&s=612x612&w=0&k=20&c=atsCGnr0eUHcAKyBnSjMGjgrIB5ff_LMWrURKifQTdY=" alt="">
+            <p>Grow your business for with single click  </p>
+        </div>
+     </div>
+    
+
+  <div class="program_story_1">
+
+     <div class="infromation_1">
+        <h2>Your channel programe on steroids</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Quo nulla nostrum<br> cum necessitatibus veritatis quidem ut, molestiae natus odit incidunt!</p>
+     </div>
+     <div class="picture_1"></div>
+   
+    </div>
+
+    <div class="program_story_2">
+           
+     <div class="picture_2"></div>
+        <div class="infromation_2">
+           <h2>Become the vendor everyone went to buy  from</h2>
+           <p>Gain brand authority and visibility with the help of the largest IT service ecosystem.Find  <br> customers who are looking for your solution right now</p>
+        </div>
+      
+      
+       </div>
+
+       <div class="program_story_3">
+
+        <div class="infromation_3">
+           <h2>It's like having Your best Salesman on autopilot</h2>
+           <p>Share collaterals and documents that are automatically branded. <br>Leverage a rich partner  network that sells your solution exactly <br> the way your best salesman would.</p>
+        </div>
+        <div class="picture_3"></div>
+      
+       </div>
+
+       <div class="program_story_4">
+
+        <div class="picture_4"></div>
+        <div class="infromation_4">
+           <h2>Track your channel performance</h2>
+           <p>Monitor the health and revenue of your channel program and streamline your <br> campaign to win more customers within Zomentum..</p>
+        </div>
+      
+      
+       </div>
+
+       <div class="program_story_5">
+
+        <div class="infromation_5">
+           <h2>Get The best version of Your sales playbook</h2>
+           <p>Gather insights about top channel sellers and find out what pitch and collaterals <br> ensure maximum profitability. Win happy customers with<br> an optimized sales playbook.</p>
+        </div>
+        <div class="picture_5"></div>
+      
+       </div>
+
+    <div class="footer">
+         
+        <div>
+            <h3>Product</h3>
+            <h5>Features</h5>
+            <h5>pricing</h5>
+            <h5>Integration</h5>
+            <h5>Proudct</h5>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <h5>Contact us</h5>
+            <h5>submit a ticket</h5>
+            <h5>privacy policy</h5>
+            <h5>term & condtion </h5>
+        </div>
+
+        <div>
+            <h3>User</h3>
+            <h5>login</h5>
+            <h5>Get a demo</h5>
+            <h5>Talk to us</h5>
+            <h5>privacy policy</h5>
+         
+        </div>
+
+        <div>
+            <h3>Guiders</h3>
+            <h5>MSP</h5>
+            <h5>MSP Salas</h5>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <h5>Address</h5>
+        </div>
+         
+    </div>
+      
+
+
+</body>
+</html>
